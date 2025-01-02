@@ -4,8 +4,15 @@ module.exports = {
     theme: {
     extend: {
       fontFamily: {
-        Bahn: ['Bahnschrift', 'sans-serif'], // Add your custom font
+        Bahn: ['Bahnschrift', 'sans-serif'],
+        Pop: ['Poppins', 'sans-serif'] ,
+        roboto: ['Robotto', 'sans-serif']
+        
       },
+      fontSize: {
+        
+        '5.1xl': '50px',
+      }
     },
   },
   plugins: [],
