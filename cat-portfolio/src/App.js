@@ -8,6 +8,9 @@ import p1 from './assets/images/p1.png'
 import p2 from './assets/images/p2.png'
 import About from './components/About';
 import Endorsement from './components/Endorsement';
+import Abdo from '../src/assets/images/Abdo.jpg'
+import Hany from '../src/assets/images/Hany.jpg'
+import Blog from './components/Blog'
 function App() {
   return (
     <div className="App">
@@ -29,7 +32,17 @@ function App() {
       Technologies={"Technologies Used: Html, Css, Javascript"} />
       <button className='rounded-full px-5 py-3 border border-black text-lg'>See More Work</button>
       <About/>
-      <Endorsement/>
+      <Endorsement quote={"I had the opportunity to work with Hani Ahmed  as a Backend Developer"}
+      image={Abdo}
+      name={"Abdo Eid"}
+      job={"Back-end Developer"}
+      />
+      <Endorsement quote={"I had the opportunity to work with Hani Ahmed  as a Front-End Developer"}
+         image={Hany}
+         name={"Hany Saad"}
+         job={"Front-end Developer"}
+         />
+         <Blog />
       </div>
   );
 }
