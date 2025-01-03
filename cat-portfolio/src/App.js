@@ -7,6 +7,7 @@ import ProjectCard from './components/ProjectCard';
 import p1 from './assets/images/p1.png'
 import p2 from './assets/images/p2.png'
 import About from './components/About';
+import Endorsement from './components/Endorsement';
 function App() {
   return (
     <div className="App">
@@ -28,6 +29,7 @@ function App() {
       Technologies={"Technologies Used: Html, Css, Javascript"} />
       <button className='rounded-full px-5 py-3 border border-black text-lg'>See More Work</button>
       <About/>
+      <Endorsement/>
       </div>
   );
 }
