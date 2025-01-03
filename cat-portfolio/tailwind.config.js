@@ -6,7 +6,8 @@ module.exports = {
       fontFamily: {
         Bahn: ['Bahnschrift', 'sans-serif'],
         Pop: ['Poppins', 'sans-serif'] ,
-        roboto: ['Robotto', 'sans-serif']
+        roboto: ['Robotto', 'sans-serif'],
+        Pop_Bold : ['Poppins-Bold', 'sans-serif']
         
       },
       fontSize: {
