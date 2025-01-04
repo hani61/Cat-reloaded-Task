@@ -5,7 +5,7 @@ const ProjectCard = ({image, name,link, Description, Technologies }) => {
     <div className="w-full h-fit flex justify-between p-6 font-Pop">
       <div className="w-2/4 p-5 ">
       <a href={link}>
-      <img src={image}></img>
+      <img src={image}/>
       </a>
       </div>
       <div className="w-2/4 items-center justify-center p-4">

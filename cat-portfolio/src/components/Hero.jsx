@@ -11,7 +11,7 @@ const Hero = () => {
            <button className="bg-[#D21F46] rounded-full font-semibold text-lg text-white py-3 px-5" >See My Projects</button>
       </div>
       <div className="w-2/4 px-8">
-      <img src={image} alt="Hani Ahmed" className="object-contain w-4/5 h-4/5"></img>
+      <img src={image} alt="Hani Ahmed" className="object-contain w-4/5 h-4/5"/>
       </div>
     </div>
   )

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="w-full h-fit flex mt-12 ">
       <div className="w-2/5 p-10 ml-10"> 
-        <img src={aboutImg} className="object-contain"></img>
+        <img src={aboutImg} className="object-contain"/>
       </div>
       <div className="w-3/5 text-start p-20">
       <h1 className="text-black font-Pop_Bold text-5.1xl text-start ">ABOUT ME</h1>
