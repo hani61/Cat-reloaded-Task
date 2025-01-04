@@ -1,7 +1,7 @@
 import React from "react";
 const Navbar = () => {
   return (
-    <nav className='fixed w-full bg-black py-3 z-20'>
+    <nav className='fixed w-full bg-black py-3 z-20 overflow-hidden'>
        <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center">
           <a href="#" className="text-4xl font-bold text-white font-Bahn py-3">Hani Ahmed</a>

@@ -13,7 +13,7 @@ import Hany from '../src/assets/images/Hany.jpg'
 import Blog from './components/Blog'
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-hidden">
       <Navbar />
       <Hero />
       <Projects />
