@@ -36,11 +36,13 @@ function App() {
       image={Abdo}
       name={"Abdo Eid"}
       job={"Back-end Developer"}
+      link={"https://www.linkedin.com/in/abdo-eid-844853243"}
       />
       <Endorsement quote={"I had the opportunity to work with Hani Ahmed  as a Front-End Developer"}
          image={Hany}
          name={"Hany Saad"}
          job={"Front-end Developer"}
+         link={"https://www.linkedin.com/in/hany-saad-eldean-1b616625a"}
          />
          <Blog />
       </div>

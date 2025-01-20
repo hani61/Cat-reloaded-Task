@@ -7,7 +7,7 @@ const Blog = () => {
   return (
       <div className="w-full flex flex-col">
         <h1 className="font-Pop_Bold text-5.1xl">My Blog</h1>
-        <div className="flex flex-row justify-between gap-4 px-20   ">
+        <div className="flex flex-row justify-between  gap-4 px-20   ">
           <BlogCard 
           image ={blog1}
           title={"Why You Can't Depend on Courses Only (Arabic)"}

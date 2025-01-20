@@ -4,7 +4,7 @@ import img2 from '../assets/images/2.JPEG'
 import img3 from '../assets/images/3.JPEG'
 const Projects = () =>{
   return (
-    <div className="w-full font-pop">
+    <div className="w-full font-pop" id="projects">
       <h1 className="text-slate-400 text-5.1xl font-extrabold"> Worked with</h1>
       <div className="w-full h-40 gap-32 flex justify-center">
       <img src={img1}/>
